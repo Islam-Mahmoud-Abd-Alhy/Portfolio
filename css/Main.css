@@ -431,7 +431,7 @@ body {
   padding-top: 60px;
   text-align: center;
 }
-#Portfolio {
+#Progects {
   background-color: #1f242d;
   display: flex;
   font-family: "Montserrat", sans-serif;
@@ -441,7 +441,7 @@ body {
   gap: 100px;
   padding: 100px;
 }
-.images-portfolio {
+.images-Progects {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -451,13 +451,13 @@ body {
   flex-wrap: wrap;
   max-width: 950px;
 }
-.first-portfolio {
+.first-Progects {
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
 }
-.portfolio1 {
+.Progects1 {
   width: 300px;
   border-radius: 16px;
 }
