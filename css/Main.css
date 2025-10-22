@@ -20,17 +20,18 @@ body {
 }
 
 /* Navigation */
-#nav-bar {
-  background-color: #1f242d;
-  padding: 15px 5%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+/* الخلفية الأساسية */
+#mainNav {
+  background-color: rgba(31, 36, 45, 0.95);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  transition: all 0.4s ease;
+}
+
+/* لما المستخدم يعمل scroll */
+#mainNav.nav-scrolled {
+  background-color: rgba(31, 36, 45, 0.85);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
 }
 
 .My-name-1 {
@@ -40,36 +41,12 @@ body {
 }
 
 .nav-bar-ul {
-  display: flex;
-  list-style: none;
-  gap: 25px;
+  gap: 10px;
 }
 
-.line1 a {
-  text-decoration: none;
-  color: white;
-  padding: 8px 15px;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-}
-
-.line1 a:hover {
-  color: #00eeff;
-}
-
-/* Mobile menu */
-.menu-toggle {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.menu-toggle span {
-  width: 25px;
-  height: 3px;
-  background: #fff;
-  margin: 3px 0;
-  transition: all 0.3s ease;
+.nav-link:hover {
+  color: #00eeff !important;
+  transition: 0.3s;
 }
 
 /* Profile Section */
