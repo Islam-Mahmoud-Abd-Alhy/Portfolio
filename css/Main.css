@@ -20,14 +20,12 @@ body {
 }
 
 /* Navigation */
-/* الخلفية الأساسية */
 #mainNav {
   background-color: rgba(31, 36, 45, 0.95);
   box-shadow: 0 2px 10px rgba(0,0,0,0.2);
   transition: all 0.4s ease;
 }
 
-/* لما المستخدم يعمل scroll */
 #mainNav.nav-scrolled {
   background-color: rgba(31, 36, 45, 0.85);
   backdrop-filter: blur(10px);
@@ -36,8 +34,8 @@ body {
 
 .My-name-1 {
   font-family: "Montez", cursive;
-  color: white;
-  font-size: 28px;
+  color: white !important;
+  font-size: 30px !important;
 }
 
 .nav-bar-ul {
