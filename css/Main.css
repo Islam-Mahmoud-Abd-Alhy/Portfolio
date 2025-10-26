@@ -320,85 +320,40 @@ body {
 }
 
 /* Services Section */
-.h3-Services {
-  color: #ffffff;
-  font-size: 2.5rem;
-  text-align: center;
-  padding: 100px;
-  background-color: #323946;
-}
+  #Services {
+    background-color: #323946 !important;
+    margin-top:-50px !important;
+  }
+  .service-card {
+    background-color: #1f242d;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
 
-.h3-Services span {
-  color: #00eeff;
-}
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 238, 255, 0.3);
+    border: 1px solid #00eeff;
+  }
 
-#Services {
-  background-color: #323946;
-  padding: 50px 5% 100px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-  margin-top: -50px;
-}
+  .service-icon {
+    width: 80px;
+    height: 80px;
+  }
+  .h3-Services{
+    background-color: #323946;
+  }
 
-.web-development,
-.web-design {
-  background-color: #1f242d;
-  border-radius: 15px;
-  padding: 30px;
-  width: 350px;
-  text-align: center;
-  transition: all 0.3s ease;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
+  .h3-Services span {
+    color: #00eeff;
+  }
 
-.web-development:hover,
-.web-design:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0, 238, 255, 0.2);
-  border: 1px solid #00eeff;
-}
-
-.img-web-development,
-.web-design-img {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 20px;
-}
-
-.web-development h2,
-.web-design h2 {
-  color: #00eeff;
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-}
-
-.web-development p,
-.web-design p {
-  color: #ffffff;
-  margin-bottom: 25px;
-  line-height: 1.6;
-}
-
-.button-web-development,
-.button-web-Design {
-  padding: 12px 30px;
-  background-color: transparent;
-  border: 2px solid #00eeff;
-  color: #00eeff;
-  border-radius: 50px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.button-web-development:hover,
-.button-web-Design:hover {
-  background-color: #00eeff;
-  color: #1f242d;
-}
-
+  .btn-outline-info:hover {
+    background-color: #00eeff;
+    color: #1f242d;
+    border-color: #00eeff;
+  }
 /* Portfolio Section */
 .h2-Portfolio {
   color: #ffffff;
