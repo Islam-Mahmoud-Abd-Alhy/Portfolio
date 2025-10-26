@@ -471,40 +471,36 @@ body {
 .h2-Contact span {
   color: #00eeff;
 }
-
 #Contact {
   background-color: #323946;
-  padding: 50px 5% 100px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 50px;
-  margin-top:-50px;
+}
+
+.h2-Contact {
+  color: #fff;
+  font-size: 2.5rem;
+  background-color: #323946;
+  margin: 0;
+}
+
+.h2-Contact span {
+  color: #00eeff;
 }
 
 .txt-contact {
-  flex: 1;
-  min-width: 300px;
-  max-width: 500px;
+  color: #fff;
 }
 
 .p-contact {
-  color: #ffffff;
   line-height: 1.8;
   margin-bottom: 30px;
-}
-
-.icons {
-  display: flex;
-  gap: 20px;
 }
 
 .icons a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   background: #1f242d;
   border-radius: 50%;
   transition: all 0.3s ease;
@@ -518,24 +514,13 @@ body {
 .facebook-contact,
 .phone-contact,
 .mail2-contact {
-  width: 20px;
-  height: 20px;
-}
-
-.contact-form {
-  flex: 1;
-  min-width: 300px;
-  max-width: 500px;
+  width: 22px;
+  height: 22px;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-}
-
-form .row {
-  display: flex;
   gap: 15px;
 }
 
@@ -547,7 +532,6 @@ textarea {
   padding: 12px 15px;
   color: white;
   font-family: inherit;
-  flex: 1;
 }
 
 input::placeholder,
@@ -593,11 +577,11 @@ textarea {
 }
 
 .up-row {
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
   border: 2px solid #00eeff;
   border-radius: 50%;
-  padding: 8px;
+  padding: 6px;
   transition: all 0.3s ease;
 }
 

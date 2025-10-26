@@ -275,49 +275,59 @@
   </div>
 </section>
     <!-- Contact Section -->
-    <h2 class="h2-Contact">Contact <span>Me</span></h2>
-    <section id="Contact">
-        <div class="txt-contact">
-            <p class="p-contact">
-                I am a professional Web Designer. I have designed more than 50 web templates for my clients.
-                You can hire me to design your personal, business, or other website template.
-                I will complete your work with full satisfaction.
-            </p>
+<h2 class="h2-Contact text-center py-5">Contact <span>Me</span></h2>
 
-            <div class="icons">
-                <a href="https://www.facebook.com/islam.ghazy.188" target="_blank">
-                    <img src="./media/picture/facebook.png" alt="facebook-contact" class="facebook-contact">
-                </a>
-                <a href="tel:+201064186453">
-                    <img src="./media/picture/call.png" alt="phone-contact" class="phone-contact">
-                </a>
-                <a href="mailto:islam2010ghazy@gmail.com">
-                    <img src="./media/picture/mail1.png" alt="mail2-contact" class="mail2-contact">
-                </a>
-            </div>
-        </div>
+<section id="Contact" class="container-fluid py-5">
+  <div class="row justify-content-center align-items-start g-4">
+    <!-- Text & Icons -->
+    <div class="col-md-5 txt-contact">
+      <p class="p-contact">
+        I am a professional Web Designer. I have designed more than 50 web templates for my clients.
+        You can hire me to design your personal, business, or other website template.
+        I will complete your work with full satisfaction.
+      </p>
 
-        <!-- Contact Form -->
-        <div class="contact-form">
-            <form autocomplete="on" method="post">
-                <input type="text" id="fname" name="fname" required placeholder="First Name">
-                <input type="text" name="lname" id="lname" required placeholder="Last Name">
-                <input type="tel" name="p-number" id="p-number" required placeholder="Phone"> <!-- ❌ type كان number -->
-                <input type="text" name="Subject" id="Subject" required placeholder="Subject">
-                <input type="email" name="email" id="email" required placeholder="Email" class="email-contact">
-                <textarea name="Message" id="Message" cols="50" rows="5" placeholder="Message"></textarea> <!-- ❌ كان فيه خطأ إملائي -->
-                <button type="submit" class="button-form">Submit</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <div class="footer">
-        <p><b>Copyright 2025 All Rights Reserved. By Islam Mahmoud Abd Alhy.</b></p>
-        <a href="#profile">
-            <img src="./media/picture/up-roow.png" alt="up-row" class="up-row">
+      <div class="icons d-flex gap-3">
+        <a href="https://www.facebook.com/islam.ghazy.188" target="_blank">
+          <img src="./media/picture/facebook.png" alt="facebook-contact" class="facebook-contact">
         </a>
+        <a href="tel:+201064186453">
+          <img src="./media/picture/call.png" alt="phone-contact" class="phone-contact">
+        </a>
+        <a href="mailto:islam2010ghazy@gmail.com">
+          <img src="./media/picture/mail1.png" alt="mail2-contact" class="mail2-contact">
+        </a>
+      </div>
     </div>
+
+    <!-- Form -->
+    <div class="col-md-5 contact-form">
+      <form autocomplete="on" method="post">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <input type="text" id="fname" name="fname" required placeholder="First Name">
+          </div>
+          <div class="col-md-6">
+            <input type="text" name="lname" id="lname" required placeholder="Last Name">
+          </div>
+        </div>
+        <input type="tel" name="p-number" id="p-number" required placeholder="Phone">
+        <input type="text" name="Subject" id="Subject" required placeholder="Subject">
+        <input type="email" name="email" id="email" required placeholder="Email">
+        <textarea name="Message" id="Message" cols="50" rows="5" placeholder="Message"></textarea>
+        <button type="submit" class="button-form">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer text-center text-md-start">
+  <p><b>Copyright 2025 All Rights Reserved. By Islam Mahmoud Abd Alhy.</b></p>
+  <a href="#profile">
+    <img src="./media/picture/up-roow.png" alt="up-row" class="up-row">
+  </a>
+</footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/all.min.js"></script>
 </body>
